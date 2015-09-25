@@ -11,7 +11,7 @@ VERSION         AUTHOR                  DATE            DETAIL
 1.0             John Doe  				29/08/1997		Initial development
 ***********************************************************************/
 @RestResource(urlmapping='/example')
-public with sharing class {{ api_name }} 
+global with sharing class {{ api_name }} 
 {
 	public {{ api_name }}() 
 	{
