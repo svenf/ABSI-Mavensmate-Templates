@@ -1,6 +1,32 @@
 {  
     "ApexClass":[  
         {  
+            "name":"ABSI Default",
+            "file_name":"ApexClass.cls",
+            "description":"The default template for an Apex Class",
+            "author":"Sven Francornel",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                }
+            ]
+        },
+		{  
+            "name":"ABSI REST class",
+            "file_name":"AbsiRESTApexClass.cls",
+            "description":"The default template for an Apex Class",
+            "author":"Sven Francornel",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                }
+            ]
+        },
+		{  
             "name":"Default",
             "file_name":"ApexClass.cls",
             "description":"The default template for an Apex Class",
@@ -39,6 +65,19 @@
                 }
             ]
         },
+		{  
+            "name":"ABSI Batch",
+            "file_name":"AbsiBatchApexClass.cls",
+            "description":"Batch Apex Class",
+            "author":"Sven Francornel",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                }
+            ]
+        },
         {  
             "name":"Batch",
             "file_name":"BatchApexClass.cls",
@@ -62,6 +101,19 @@
                     "name":"api_name",
                     "description":"Apex Class API Name",
                     "default":"MyBDDClass"
+                }
+            ]
+        },
+		{  
+            "name":"ABSI Controller Extension",
+            "file_name":"AbsiControllerExtension.cls",
+            "description":"Controller extension Apex Class",
+            "author":"Sven Francornel",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
                 }
             ]
         },
@@ -149,6 +201,19 @@
             ]
         },
         {  
+            "name":"ABSI Schedulable",
+            "file_name":"AbsiSchedulableApexClass.cls",
+            "description":"A Schedulable class",
+            "author":"Sven Francornel",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                }
+            ]
+        },
+		{  
             "name":"Schedulable",
             "file_name":"SchedulableApexClass.cls",
             "description":"A Schedulable class",
@@ -218,6 +283,19 @@
                 }
             ]
         },
+		{  
+            "name":"ABSI Unit Test",
+            "file_name":"AbsiUnitTestApexClass.cls",
+            "description":"Unit test class",
+            "author":"Sven Francornel",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                }
+            ]
+        },
         {  
             "name":"Unit Test",
             "file_name":"UnitTestApexClass.cls",
@@ -273,6 +351,19 @@
     ],
     "ApexComponent":[  
         {  
+            "name":"ABSI Visualforce Component",
+            "file_name":"AbsiApexComponent.component",
+            "description":"Basic Visualforce Component template",
+            "author":"Sven Francornel",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Visualforce Component API Name",
+                    "default":"MyVisualforceComponent"
+                }
+            ]
+        },
+		{  
             "name":"Visualforce Component",
             "file_name":"ApexComponent.component",
             "description":"Basic Visualforce Component template",
@@ -288,6 +379,19 @@
     ],
     "ApexPage":[  
         {  
+            "name":"ABSI Visualforce Page",
+            "file_name":"AbsiApexPage.page",
+            "description":"Basic Visualforce Page template",
+            "author":"Sven Francornel",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Visualforce Page API Name",
+                    "default":"MyVisualforcePageName"
+                }
+            ]
+        },
+		{  
             "name":"Visualforce Page",
             "file_name":"ApexPage.page",
             "description":"Basic Visualforce Page template",
@@ -316,6 +420,24 @@
     ],
     "ApexTrigger":[  
         {  
+            "name":"ABSI Apex Trigger",
+            "file_name":"AbsiApexTrigger.trigger",
+            "description":"ABSI Apex Trigger template",
+            "author":"Sven Francornel",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Trigger API Name",
+                    "default":"MyCoolTrigger"
+                },
+                {  
+                    "name":"object_name",
+                    "description":"Object API Name",
+                    "default":"Account"
+                }
+            ]
+        },
+		{  
             "name":"Apex Trigger",
             "file_name":"ApexTrigger.trigger",
             "description":"Basic Apex Trigger template",
