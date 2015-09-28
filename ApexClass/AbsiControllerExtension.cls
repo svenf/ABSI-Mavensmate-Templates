@@ -22,8 +22,9 @@ public with sharing class {{ api_name }}
         this.mysObject = (sObject)stdController.getRecord();
     }
 
-    public String getRecordName() 
+    public String getRecords() 
 	{
-        return 'Hello ' + (String)mysObject.get('name') + ' (' + (Id)mysObject.get('Id') + ')';
+        //Service service = new Service();
+		//service.callMethod();
     }
 }

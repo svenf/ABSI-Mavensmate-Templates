@@ -23,5 +23,8 @@ private class {{ api_name }}
 	static testMethod void test_method_one() 
 	{
 		// Implement test code
+		Test.startTest();
+
+		Test.stopTest();
 	}	
 }
