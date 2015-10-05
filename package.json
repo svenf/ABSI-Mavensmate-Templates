@@ -2,7 +2,7 @@
     "ApexClass":[  
         {  
             "name":"ABSI Default",
-            "file_name":"ApexClass.cls",
+            "file_name":"AbsiApexClass.cls",
             "description":"The default template for an Apex Class",
             "author":"Sven Francornel",
             "params":[  
@@ -17,6 +17,32 @@
             "name":"ABSI REST class",
             "file_name":"AbsiRESTApexClass.cls",
             "description":"The default template for an Apex Class",
+            "author":"Sven Francornel",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                }
+            ]
+        },
+		{  
+            "name":"ABSI Selector class",
+            "file_name":"AbsiSelectorClass.cls",
+            "description":"The default template for a selector Class",
+            "author":"Sven Francornel",
+            "params":[  
+                {  
+                    "name":"api_name",
+                    "description":"Apex Class API Name",
+                    "default":"MyApexClass"
+                }
+            ]
+        },
+		{  
+            "name":"ABSI Service class",
+            "file_name":"AbsiServiceClass.cls",
+            "description":"The default template for a Service Class",
             "author":"Sven Francornel",
             "params":[  
                 {  
