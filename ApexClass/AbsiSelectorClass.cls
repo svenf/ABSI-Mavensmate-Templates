@@ -16,13 +16,13 @@ public with sharing class {{ api_name }} extends fflib_SObjectSelector
 	{
 		this.paging = new ccPaging();
 	}
-	/*
+	
 	//Public property to hold the paging info
 	public ccPaging paging {get; set;}
-
+	
 	//Public property to define the fields to be returned
 	public List<Schema.SObjectField> sObjectFieldList {get; set;}
-
+	
 	//Implementation of the abstract method. Use the public property when it is defined, otherwise return the common fields
 	public List<Schema.SObjectField> getSObjectFieldList()
 	{
@@ -34,11 +34,12 @@ public with sharing class {{ api_name }} extends fflib_SObjectSelector
 				Service_Order__c.Id,
 				Service_Order__c.Name
 			};
-	}*/
+	}
 
 	//Implementation of the abstract method to define the object
 	public Schema.SObjectType getSObjectType()
 	{
+		return null;
 		//return Service_Order__c.sObjectType;
 	}	
 /*
