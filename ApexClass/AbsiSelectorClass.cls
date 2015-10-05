@@ -10,7 +10,7 @@ History
 VERSION         AUTHOR                  DATE            DETAIL                                 
 1.0             John Doe  				29/08/1997		Initial development
 ***********************************************************************/
-public with sharing class {{ api_name }} extends fflib_SObjectSelector
+public with sharing class {{ api_name }} //extends fflib_SObjectSelector
 {
 	public {{ api_name }}() 
 	{
