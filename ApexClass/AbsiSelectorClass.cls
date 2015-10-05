@@ -34,14 +34,14 @@ public with sharing class {{ api_name }} extends fflib_SObjectSelector
 				Service_Order__c.Id,
 				Service_Order__c.Name
 			};
-	}
+	}*/
 
 	//Implementation of the abstract method to define the object
 	public Schema.SObjectType getSObjectType()
 	{
-		return Service_Order__c.sObjectType;
+		//return Service_Order__c.sObjectType;
 	}	
-
+/*
 	//Method to return the paging string to add to the query
 	private String getPagingString()
 	{
