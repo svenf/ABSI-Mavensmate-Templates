@@ -106,17 +106,17 @@ public with sharing class {{ api_name }} //extends fflib_SObjectSelector
         String query = String.format(
 				'SELECT {0} ' +
 				  'FROM {1} ' +
-				  'WHERE Id IN : idSet ' + 				  
-				  'ORDER BY {2} ' +
-				  '{3}',				
+				  'WHERE {4}' + 				  
+				  '{2} {3}',				
 				new List<String> {
-						getFieldListString(),
+						getSelectString(),
 						getSObjectName(),
-						getOrderBy(),
-						getPagingString()						
+						getOrderByString(),
+						getPagingString(),	
+						'Id IN : idSet'
 					});
 
-		return new ccQueryResult(Database.query(query), paging, Datetime.now(), query);
+		return new ccQueryResult(Database.query(query), paging, query);
 	}	
 
 	//Get the service orders without any criteria
@@ -126,15 +126,14 @@ public with sharing class {{ api_name }} //extends fflib_SObjectSelector
         String query = String.format(
 				'SELECT {0} ' +
 				  'FROM {1} ' +
-				  'ORDER BY {2} ' +
-				  '{3}',				
+				  '{2} {3}',				
 				new List<String> {
-						getFieldListString(),
+						getSelectString(),
 						getSObjectName(),
-						getOrderBy(),
+						getOrderByString(),
 						getPagingString()						
 					});
 
-		return new ccQueryResult(Database.query(query), paging, Datetime.now(), query);
+		return new ccQueryResult(Database.query(query), paging, query);
 	}*/
 }
