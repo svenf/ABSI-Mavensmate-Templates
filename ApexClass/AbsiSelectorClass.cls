@@ -28,7 +28,7 @@ public with sharing class {{ api_name }} //extends fflib_SObjectSelector
 	public {{ api_name }}() 
 	{
 		//Init the paging property
-		this.paging = new ccPaging();
+		//this.paging = new ccPaging();
 	}	
 	/*
 	//Public property to define the fields to be returned
