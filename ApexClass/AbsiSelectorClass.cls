@@ -32,7 +32,7 @@ public with sharing class {{ api_name }} //extends fflib_SObjectSelector
 	}	
 	/*
 	//Public property to define the fields to be returned
-	public List<Schema.SObjectField> sObjectFieldList {get; set;}
+	public List<Schema.SObjectField> sObjectFieldList {private get; set;}
 	
 	//Implementation of the abstract method in the fflib class. Use the public list property to define the return fields
 	private List<Schema.SObjectField> getSObjectFieldList()
@@ -50,7 +50,7 @@ public with sharing class {{ api_name }} //extends fflib_SObjectSelector
 
 	//Public property to define the fields to be returned (defined as strings)
 	//This is needed to support inner queries and parent relationships
-	public List<String> sObjectFieldStringList {get; set;}			
+	public List<String> sObjectFieldStringList {private get; set;}			
 
 	//Method to create the select string of the query
 	private String getSelectString()
