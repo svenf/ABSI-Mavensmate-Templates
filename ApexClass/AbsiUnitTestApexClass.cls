@@ -4,13 +4,7 @@
 ======================================================
 Description: 
 	Sample description
-======================================================
-History                                                            
--------                                                            
-VERSION         AUTHOR                  DATE            DETAIL                                 
-1.0             John Doe  				29/08/1997		Initial development
 ***********************************************************************/
-
 @isTest
 private class {{ api_name }} 
 {	
