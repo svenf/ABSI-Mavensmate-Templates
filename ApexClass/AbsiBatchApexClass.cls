@@ -1,9 +1,7 @@
 /**********************************************************************
  Name: {{api_name}}
- Other classes used:
 ======================================================
 Description: 
-	Sample description
 ***********************************************************************/
 global class {{ api_name }} implements Database.Batchable<sObject> 
 {	

@@ -1,9 +1,7 @@
 /**********************************************************************
  Name: {{api_name}}
- Other classes used:
 ======================================================
 Description: 
-	Sample description
 ***********************************************************************/
 @RestResource(urlmapping='/example')
 global with sharing class {{ api_name }} 

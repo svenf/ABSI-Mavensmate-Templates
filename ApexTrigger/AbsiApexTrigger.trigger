@@ -1,17 +1,8 @@
 /**********************************************************************
  Name: {{api_name}}
- Other classes used:
- Tested in class:
 ======================================================
 Description: 
-	Sample description
-======================================================
-History                                                            
--------                                                            
-VERSION         AUTHOR                  DATE            DETAIL                                 
-1.0             John Doe  				29/08/1997		Initial development
 ***********************************************************************/
-
 trigger {{ api_name }} on {{ object_name }} (
 	before insert, 
 	before update, 
